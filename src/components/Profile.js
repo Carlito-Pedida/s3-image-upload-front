@@ -1,5 +1,5 @@
-import { Box, Image, Text, VStack } from '@chakra-ui/react';
-import Posts from './Posts';
+import { Box, Image, Text, VStack } from "@chakra-ui/react";
+import Posts from "./Posts";
 
 const Profile = () => {
   return (
@@ -11,9 +11,12 @@ const Profile = () => {
           src="https://thumbs.dreamstime.com/b/flat-male-avatar-image-beard-hairstyle-businessman-profile-icon-vector-179285629.jpg"
           alt="Profile"
         />
-        <Text>Carlito Pedida Jr</Text>
+        <Text>AWS S3 Image Uploader App</Text>
         <Text fontSize="lg" color="gray.400">
-          Software Developer
+          Carlito Pedida Jr <br />
+          <Text fontSize="sm" color="gray.400">
+            Application Developer
+          </Text>
         </Text>
       </VStack>
 
